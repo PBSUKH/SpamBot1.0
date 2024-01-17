@@ -1,4 +1,4 @@
-### 🌷𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑🌷
+### ⚜ 𝐋𝐄𝐆𝐄𝐍𝐃 𝐒𝐏𝐀𝐌 𝐁𝐎𝐓 ⚜
 
 <!--
 **itzshukla/itzshukla** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
