@@ -1,5 +1,5 @@
 {
-    "name": "𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 𝐒𝐏𝐀𝐌",
+    "name": "𝐁𝐀𝐃 𝐒𝐏𝐀𝐌 𝐗",
     "logo": "https://telegra.ph/file/aa4bf1e57d11fb75b602e.jpg",
     "keywords": [
         "telegram",
@@ -8,7 +8,7 @@
         "PythonX",
         "SpamBots"
     ],
-    "repository": "https://github.com/itzshukla/STRANGER-SPAM-X",
+    "repository": "https://github.com/badmunda98/BADNEW_SPAM_X",
     "env": {
      "CMD_HNDLR": {
             "description": "Custom command handler.",
@@ -67,12 +67,12 @@
       },
        "SUDO_USER": {
             "description": "Sudo users id space by space",
-            "value": "6919199044 6762113050 6876910746",
+            "value": "6898413162 6566179661",
             "required": false
         },
       "OWNER_ID": {
             "description": "Owner Id",
-            "value": "6762113050",
+            "value": "6898413162",
             "required": true
         },
         "HEROKU_API_KEY": {
