@@ -2,7 +2,7 @@ from config import MK1, MK2, MK3, MK4, MK5, MK6, MK7, MK8, MK9, MK10, SUDO_USERS
 from telethon import events, Button
 
 
-PythonHelp = f"★ ​𝐁𝐀𝐃 𝐒𝐏𝐀𝐌 𝐇𝐄𝐋𝐏 𝐌𝐄𝐍𝐔 ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @II_BAD_MUNDA_II**"
+PythonHelp = f"★ ​𝐋𝐄𝐆𝐄𝐍𝐃 𝐒𝐏𝐀𝐌 𝐇𝐄𝐋𝐏 𝐌𝐄𝐍𝐔 ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @II_BAD_MUNDA_II**"
 
 
 @MK1.on(events.NewMessage(incoming=True, pattern=r"\%shelp(?: |$)(.*)" % hl))
