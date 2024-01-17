@@ -33,7 +33,7 @@ async def spam(e):
                 username = f"[{c}](tg://user?id={g})"
                 counter = int(mkraid[0])
                 for _ in range(counter):
-                    reply = random.choice(PBIRAID)
+                    reply = random.choice(PBISPAMRAID)
                     caption = f"{username} {reply}"
                     await e.client.send_message(e.chat_id, caption)
                     await asyncio.sleep(0.1)
@@ -51,7 +51,7 @@ async def spam(e):
                 counter = int(mkraid[0])
                 username = f"[{c}](tg://user?id={g})"
                 for _ in range(counter):
-                    reply = random.choice(PBIRAID)
+                    reply = random.choice(PBISPAMRAID)
                     caption = f"{username} {reply}"
                     await e.client.send_message(e.chat_id, caption)
                     await asyncio.sleep(0.1)
