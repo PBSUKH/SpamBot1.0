@@ -2,7 +2,7 @@ from config import MK1, MK2, MK3, MK4, MK5, MK6, MK7, MK8, MK9, MK10, SUDO_USERS
 from telethon import events, Button
 
 
-PythonHelp = f"★ ​𝗦𝘁𝗿𝗮𝗻𝗴𝗲𝗿 𝘀𝗽𝗮𝗺 𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪 ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @SHIVANSH39**"
+PythonHelp = f"★ ​𝐁𝐀𝐃 𝐒𝐏𝐀𝐌 𝐇𝐄𝐋𝐏 𝐌𝐄𝐍𝐔 ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @II_BAD_MUNDA_II**"
 
 
 @MK1.on(events.NewMessage(incoming=True, pattern=r"\%shelp(?: |$)(.*)" % hl))
@@ -18,7 +18,7 @@ PythonHelp = f"★ ​𝗦𝘁𝗿𝗮𝗻𝗴𝗲𝗿 𝘀𝗽𝗮𝗺 𝙃𝙚
 async def help(event):
     if event.sender_id in SUDO_USERS:
        await event.client.send_file(event.chat_id,
-                                  " https://telegra.ph/file/aa4bf1e57d11fb75b602e.jpg",
+                                  " https://te.legra.ph/file/e25a563619c653328830d.jpg",
                                   caption=PythonHelp,
                                   buttons=[
            [
@@ -29,8 +29,8 @@ async def help(event):
             Button.inline("• ᴇxᴛʀᴀ •", data="extra"),
            ],
            [    
-            Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/SHIVANSH474"),
-            Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/mastiwithfriendsx")
+            Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/ll_BAD_MUNDA_WORLD_ll"),
+            Button.url("• sᴜᴘᴘᴏʀᴛ •", "")
            ],
            ],
            )
@@ -54,7 +54,7 @@ extra_msg = f"""
   2) {hl}leave : Type in the Group bot will auto leave that group
 
 
-**© @SHIVANSH39**
+**© @II_BAD_MUNDA_II**
 """
 
                  
@@ -86,7 +86,7 @@ raid_msg = f"""
   2) {hl}craid <count> <reply to user>
 
 
-**© @SHIVANSH39**
+**© @II_BAD_MUNDA_II**
 """
 
 spam_msg = f"""
@@ -103,7 +103,7 @@ spam_msg = f"""
   1) {hl}hang <counter> (you can reply any message if you want bot to reply that message and do spamming)
 
 
-** © @SHIVANSH39**
+** © @II_BAD_MUNDA_II**
 """                     
            
            
@@ -130,8 +130,8 @@ async def helpback(event):
             Button.inline("• ᴇxᴛʀᴀ •", data="extra"),
            ],
            [
-            Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/SHIVANSH474"),
-            Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/mastiwithfriendsx")
+            Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/ll_BAD_MUNDA_WORLD_ll"),
+            Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/ll_THE_BAD_BOT_ll")
            ],
            ],
         )           
