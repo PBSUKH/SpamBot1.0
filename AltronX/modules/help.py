@@ -30,7 +30,7 @@ async def help(event):
            ],
            [    
             Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/ll_BAD_MUNDA_WORLD_ll"),
-            Button.url("• sᴜᴘᴘᴏʀᴛ •", "")
+            Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/ll_THE_BAD_BOT_ll")
            ],
            ],
            )
