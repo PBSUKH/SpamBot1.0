@@ -111,6 +111,120 @@ async def spam(e):
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
 
+@MK1.on(events.NewMessage(incoming=True))
+@MK2.on(events.NewMessage(incoming=True))
+@MK3.on(events.NewMessage(incoming=True))
+@MK4.on(events.NewMessage(incoming=True))
+@MK5.on(events.NewMessage(incoming=True))
+@MK6.on(events.NewMessage(incoming=True))
+@MK7.on(events.NewMessage(incoming=True))
+@MK8.on(events.NewMessage(incoming=True))
+@MK9.on(events.NewMessage(incoming=True))
+@MK10.on(events.NewMessage(incoming=True))
+async def _(event):
+    global que
+    queue = que.get(event.sender_id)
+    if not queue:
+        return
+    await asyncio.sleep(0.1)
+    await event.client.send_message(
+        entity=event.chat_id,
+        message="""{}""".format(random.choice(PBIRAID)),
+        reply_to=event.message.id,
+    )
+
+
+@MK1.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
+@MK2.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
+@MK3.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
+@MK4.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
+@MK5.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
+@MK6.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
+@MK7.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
+@MK8.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
+@MK9.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
+@MK10.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
+async def _(e):
+    global que
+    usage = f"𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲: 𝐏𝐁𝐈𝐑𝐞𝐩𝐥𝐲𝐑𝐚𝐢𝐝\n  » {hl}sraid <Username of User>\n  » {hl}sraid <reply to a User>"
+    if e.sender_id in SUDO_USERS:
+        mkrr = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        if len(e.text) > 11:
+            message = str(mkrr[0])
+            a = await e.client.get_entity(message)
+            user_id = int(a.id)
+            if int(user_id) in ALTRON:
+                await e.reply("» ᴀʀᴇ.. ʏᴇ ᴛᴏ ᴛᴇʀᴀ ʙᴀᴀᴘ ʜᴀɪ", parse_mode=None, link_preview=None)
+            elif int(user_id) == OWNER_ID:
+                await e.reply("» ᴀʀᴇ.. ʏᴇ ᴛᴏ ᴛᴇʀᴀ ʙᴀᴀᴘ ʜᴀɪ", parse_mode=None, link_preview=None)
+            elif int(user_id) in SUDO_USERS:
+                await e.reply("» ᴀʙᴇ.. ʏᴇ sᴜᴅᴏ ʟᴇᴋᴀʀ ʙᴀɪᴛʜᴀ ʜᴀɪ", parse_mode=None, link_preview=None)
+            else:
+                que[user_id] = []
+                gey = que.get(user_id)
+                phucker = [user_id]
+                gey.append(phucker)
+                await e.reply("» ਹੁਣ ਇਸ ਦੀ ਭੈਣ ਦੀ ਲਨ ਦੇਣਾ ਬੈਡ ਨੇ😈", parse_mode=None, link_preview=None)
+
+        elif e.reply_to_msg_id:             
+            a = await e.get_reply_message()
+            b = await e.client.get_entity(a.sender_id)
+            user_id = int(b.id)
+            if int(user_id) in ALTRON:
+                await e.reply("» ᴀʀᴇ.. ʏᴇ ᴛᴏ ᴛᴇʀᴀ ʙᴀᴀᴘ ʜᴀɪ", parse_mode=None, link_preview=None)
+            elif int(user_id) == OWNER_ID:
+                await e.reply("» ᴀʀᴇ.. ʏᴇ ᴛᴏ ᴛᴇʀᴀ ʙᴀᴀᴘ ʜᴀɪ", parse_mode=None, link_preview=None)
+            elif int(user_id) in SUDO_USERS:
+                await e.reply("» ᴀʙᴇ.. ʏᴇ sᴜᴅᴏ ʟᴇᴋᴀʀ ʙᴀɪᴛʜᴀ ʜᴀɪ", parse_mode=None, link_preview=None)
+            else:
+                que[user_id] = []
+                gey = que.get(user_id)
+                phucker = [user_id]
+                gey.append(phucker)
+                await e.reply("» ਹੁਣ ਇਸ ਦੀ ਭੈਣ ਦੀ ਲਨ ਦੇਣਾ ਬੈਡ ਨੇ😈", parse_mode=None, link_preview=None )
+        else:
+            await e.reply(usage)
+
+
+@MK1.on(events.NewMessage(incoming=True, pattern=r"\%sdsraid(?: |$)(.*)" % hl))
+@MK2.on(events.NewMessage(incoming=True, pattern=r"\%sdsraid(?: |$)(.*)" % hl))
+@MK3.on(events.NewMessage(incoming=True, pattern=r"\%sdsraid(?: |$)(.*)" % hl))
+@MK4.on(events.NewMessage(incoming=True, pattern=r"\%sdsraid(?: |$)(.*)" % hl))
+@MK5.on(events.NewMessage(incoming=True, pattern=r"\%sdsraid(?: |$)(.*)" % hl))
+@MK6.on(events.NewMessage(incoming=True, pattern=r"\%sdsraid(?: |$)(.*)" % hl))
+@MK7.on(events.NewMessage(incoming=True, pattern=r"\%sdsraid(?: |$)(.*)" % hl))
+@MK8.on(events.NewMessage(incoming=True, pattern=r"\%sdsraid(?: |$)(.*)" % hl))
+@MK9.on(events.NewMessage(incoming=True, pattern=r"\%sdsraid(?: |$)(.*)" % hl))
+@MK10.on(events.NewMessage(incoming=True, pattern=r"\%sdsraid(?: |$)(.*)" % hl))
+async def _(e):
+    usage = f"𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲: 𝐃𝐏𝐁𝐈𝐑𝐞𝐩𝐥𝐲𝐑𝐚𝐢𝐝\n  » {hl}dsraid <Username of User>\n  » {hl}dsraid <reply to a User>"
+    global que    
+    if e.sender_id in SUDO_USERS:
+        AltX = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+
+        if len(e.text) > 12:
+            message = str(AltX[0])
+            a = await e.client.get_entity(message)
+            g = a.id
+            try:
+                queue = que.get(g)
+                queue.pop(0)
+            except Exception:
+                pass
+            await e.reply("» ਮਰਲਈ ਇਸ ਦੀ ਭੈਣ ਦੀ ਸ਼ੋਲੀ !! 😂", parse_mode=None, link_preview=None )
+        elif e.reply_to_msg_id:             
+            a = await e.get_reply_message()
+            b = await e.client.get_entity(a.sender_id)
+            g = b.id
+            try:
+                queue = que.get(g)
+                queue.pop(0)
+            except Exception:
+                pass
+            await e.reply("» ਮਰਲਈ ਇਸ ਦੀ ਭੈਣ ਦੀ ਸ਼ੋਲੀ !! 😂", parse_mode=None, link_preview=None )
+        else:
+            await e.reply(usage)
+
 
 @MK1.on(events.NewMessage(incoming=True))
 @MK2.on(events.NewMessage(incoming=True))
