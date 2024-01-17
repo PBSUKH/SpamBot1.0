@@ -64,6 +64,10 @@ raid_msg = f"""
 𝗥𝗮𝗶𝗱: ᴀᴄᴛɪᴠᴀᴛᴇꜱ ʀᴀɪᴅ ᴏɴ ᴀɴʏ ɪɴᴅɪᴠɪᴅᴜᴀʟ ᴜꜱᴇʀ ꜰᴏʀ ɢɪᴠᴇɴ ʀᴀɴɢᴇ.
   1) {hl}raid <count> <username>
   2) {hl}raid <count> <reply to user>
+  
+𝗣𝗕𝗜𝗿𝗮𝗶𝗱: ᴀᴄᴛɪᴠᴀᴛᴇꜱ ʀᴀɪᴅ ᴏɴ ᴀɴʏ ɪɴᴅɪᴠɪᴅᴜᴀʟ ᴜꜱᴇʀ ꜰᴏʀ ɢɪᴠᴇɴ ʀᴀɴɢᴇ.
+  1) {hl}braid <count> <username>
+  2) {hl}braid <count> <reply to user>
 
 𝗥𝗲𝗽𝗹𝘆𝗥𝗮𝗶𝗱: ᴀᴄᴛɪᴠᴀᴛᴇꜱ ʀᴇᴘʟʏ ʀᴀɪᴅ ᴏɴ ᴛʜᴇ ᴜꜱᴇʀ!!
   1) {hl}rraid <replying to user>
@@ -72,6 +76,14 @@ raid_msg = f"""
 𝗗𝗥𝗲𝗽𝗹𝘆𝗥𝗮𝗶𝗱: ᴅᴇᴀᴄᴛɪᴠᴀᴛᴇꜱ ʀᴇᴘʟʏ ʀᴀɪᴅ ᴏɴ ᴛʜᴇ ᴜꜱᴇʀ!!
   1) {hl}drraid <replying to user>
   2) {hl}drraid <username>
+
+𝗥𝗲𝗽𝗹𝘆𝗣𝗕𝗜𝗥𝗮𝗶𝗱: ᴀᴄᴛɪᴠᴀᴛᴇꜱ ʀᴇᴘʟʏ ʀᴀɪᴅ ᴏɴ ᴛʜᴇ ᴜꜱᴇʀ!!
+  1) {hl}sraid <replying to user>
+  2) {hl}sraid <username>
+
+𝗗𝗥𝗲𝗽𝗹𝘆𝗣𝗕𝗜𝗥𝗮𝗶𝗱: ᴅᴇᴀᴄᴛɪᴠᴀᴛᴇꜱ ʀᴇᴘʟʏ ʀᴀɪᴅ ᴏɴ ᴛʜᴇ ᴜꜱᴇʀ!!
+  1) {hl}dsraid <replying to user>
+  2) {hl}dsraid <username>
 
 𝐌𝐑𝐚𝐢𝐝: ʟᴏᴠᴇ ʀᴀɪᴅ ᴏɴ ᴛʜᴇ ᴜꜱᴇʀ!!
   1) {hl}mraid <count> <username>
