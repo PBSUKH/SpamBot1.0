@@ -136,7 +136,7 @@ async def helpback(event):
            ],
         )           
    else:
-        await event.answer("Pahle jaake baap bol 𝐒𝐇𝐈𝐕𝐀𝐍𝐒𝐇 ko wo tumhe sudo de dega", cache_time=0, alert=True)
+        await event.answer("ਪਹਿਲਾ ਆਪਣੀ ਭੈਣ ਦੀ ਫੁਦੀ ਦੁਵਾ ਬੈਡ ਨੂੰ ਫਿਰ ਬੈਡ ਸੁਡੋ ਦੇ ਦੁਗਾ ਤੈਨੂੰ😈", cache_time=0, alert=True)
 
 
 @MK1.on(events.CallbackQuery(pattern=r"spam"))
@@ -155,7 +155,7 @@ async def help_spam(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             ) 
    else:
-        await event.answer("Pahle jaake baap bol 𝐒𝐇𝐈𝐕𝐀𝐍𝐒𝐇 ko wo tumhe sudo de dega", cache_time=0, alert=True)
+        await event.answer("ਪਹਿਲਾ ਆਪਣੀ ਭੈਣ ਦੀ ਫੁਦੀ ਦੁਵਾ ਬੈਡ ਨੂੰ ਫਿਰ ਬੈਡ ਸੁਡੋ ਦੇ ਦੁਗਾ ਤੈਨੂੰ😈", cache_time=0, alert=True)
 
 
 @MK1.on(events.CallbackQuery(pattern=r"raid"))
@@ -174,7 +174,7 @@ async def help_raid(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             )  
      else:
-        await event.answer("Pahle jaake baap bol 𝐒𝐇𝐈𝐕𝐀𝐍𝐒𝐇 ko wo tumhe sudo de dega", cache_time=0, alert=True)
+        await event.answer("ਪਹਿਲਾ ਆਪਣੀ ਭੈਣ ਦੀ ਫੁਦੀ ਦੁਵਾ ਬੈਡ ਨੂੰ ਫਿਰ ਬੈਡ ਸੁਡੋ ਦੇ ਦੁਗਾ ਤੈਨੂੰ😈", cache_time=0, alert=True)
 
 
 @MK1.on(events.CallbackQuery(pattern=r"extra"))
@@ -193,4 +193,4 @@ async def help_extra(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             )
    else:
-        await event.answer("Pahle jaake baap bol 𝐒𝐇𝐈𝐕𝐀𝐍𝐒𝐇 ko wo tumhe sudo de dega", cache_time=0, alert=True)
+        await event.answer("ਪਹਿਲਾ ਆਪਣੀ ਭੈਣ ਦੀ ਫੁਦੀ ਦੁਵਾ ਬੈਡ ਨੂੰ ਫਿਰ ਬੈਡ ਸੁਡੋ ਦੇ ਦੁਗਾ ਤੈਨੂੰ😈", cache_time=0, alert=True)
