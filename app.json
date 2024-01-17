@@ -1,6 +1,6 @@
 {
-    "name": "𝐁𝐀𝐃 𝐒𝐏𝐀𝐌 𝐗",
-    "logo": "https://telegra.ph/file/acafe7dc4f9abb87878c4.jpg",
+    "name": "𝐋𝐄𝐆𝐄𝐍𝐃 𝐒𝐏𝐀𝐌 𝐗",
+    "logo": "https://telegra.ph/file/1139799aa31a229fab885.jpg",
     "keywords": [
         "telegram",
         "telethon",
@@ -8,7 +8,7 @@
         "PythonX",
         "SpamBots"
     ],
-    "repository": "https://github.com/badmunda98/BADNEW_SPAM_X",
+    "repository": "https://github.com/badmunda98/Legend_Bot",
     "env": {
      "CMD_HNDLR": {
             "description": "Custom command handler.",
