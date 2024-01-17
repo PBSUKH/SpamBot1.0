@@ -20,10 +20,10 @@ from telethon import events
 async def ping(e):
     if e.sender_id in SUDO_USERS:
         start = datetime.now()
-        altron = await e.reply(f"» 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥_ᴏᴘ_ʙᴏʟᴛᴀ", parse_mode=None, link_preview=None)
+        altron = await e.reply(f"» 𝐁𝐀𝐃_ᴏᴘ_ʙᴏʟᴛᴀ", parse_mode=None, link_preview=None)
         end = datetime.now()
         mp = (end - start).microseconds / 1000
-        await altron.edit(f"__𝐾𝐼𝑆𝐾𝐼 𝐺𝐴𝐴𝑁𝐷 𝑀𝐴𝑅𝑁𝐼 𝐵𝑂𝑆𝑆__\n» `{mp} ms`")
+        await altron.edit(f"__ਕਿਸ ਦੀ ਭੈਣ ਦੀ ਲਨ ਦੇਣਾ ਬੈਡ ਉਸਤਾਦ__\n» `{mp} ms`")
 
 
 @MK1.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
@@ -38,7 +38,7 @@ async def ping(e):
 @MK10.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id in SUDO_USERS:
-        await e.reply(f" ᴏʏᴇᴇ ʀᴜᴋᴊᴀᴀ!! ʙᴏᴛ ʀᴇsᴛᴀʀᴛ ʜᴏ ʀʜᴀ 🥵")
+        await e.reply(f" ਰੁੱਕ ਥੋੜਾ ਟਾਈਮ 🥵")
         try:
             await MK1.disconnect()
         except Exception:
@@ -99,7 +99,7 @@ sudousers = os.environ.get("SUDO_USER", None)
 @MK10.on(events.NewMessage(incoming=True, pattern=r"\%ssudo(?: |$)(.*)" % hl))
 async def addsudo(event):
     if event.sender_id == OWNER_ID:
-        ok = await event.reply(f"» __ᴇᴋ ɴᴀʏᴀ ʙᴇᴛᴀ ᴀᴅᴅ ʜᴏ ʀʜᴀ...__")
+        ok = await event.reply(f"» __ਬੈਡ ਦਾ ਨਵਾ ਮੁੰਡਾ ਜੰਮ ਰੀਆ...__")
         mks = "SUDO_USER"
         target = ""
         if HEROKU_APP_NAME is not None:
@@ -114,12 +114,12 @@ async def addsudo(event):
             reply_msg = await event.get_reply_message()
             target = reply_msg.sender_id
         except Exception:
-            await ok.edit("» ᴀʙᴇ ᴜsᴇʀ ᴘᴇ ʀᴇᴘʟʏ ᴋᴀʀʀ !!")
+            await ok.edit("» ਮੈਸਜ ਤੇ ਰੇਪਲਾਈ ਕਰ !!")
         if len(sudousers) > 0:
             newsudo = f"{sudousers} {target}"
         else:
             newsudo = f"{target}"
-        await ok.edit(f"» **ɴᴇᴡ ʙᴇᴛᴀ**: `{target}`\n» `ʙᴏᴛ ғɪʀ sᴇ sᴜʀᴜ ʜᴏ ʀʜᴀ...`")
+        await ok.edit(f"» **ਬੈਡ ਡੈਡੀ**: `{target}`\n» `ਹੁਣ ਫਿਰ ਕਿਸੇ ਦੀ ਮਾ ਚੁਦੁ ਗੀ...`")
         heroku_var[mks] = newsudo   
    
      
