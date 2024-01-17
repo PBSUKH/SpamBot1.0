@@ -8,11 +8,11 @@ PythonButton = [
         Button.inline("☆ 𝐂σммαиԃ𝐒 ☆", data="help_back")
         ],
         [
-        Button.url("☆ 𝐂нαииє𝐋 ☆", "https://t.me/SHIVANSH474"),
-        Button.url("☆ 𝐒υρρσя𝐓", "https://t.me/mastiwithfriendsx")
+        Button.url("☆ 𝐂нαииє𝐋 ☆", "https://t.me/ll_BAD_MUNDA_WORLD_ll"),
+        Button.url("☆ 𝐒υρρσя𝐓", "https://t.me/ll_THE_BAD_BOT_ll")
         ],
         [
-        Button.url("☆ 𝐒𝐇𝐈𝐕𝐀𝐍𝐒𝐇-𝐗𝐃 ☆", "https://t.me/SHIVANSH39")
+        Button.url("☆ 𝐁ᴀᴅ 𝐎ᴘ ☆", "https://t.me/II_BAD_MUNDA_II")
         ]
         ]
 
@@ -34,11 +34,11 @@ async def start(event):
         BotName = AltBot.first_name
         BotId = AltBot.id
         TEXT = f"**𝐇𝐞𝐲 [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\n𝐈 𝐀𝐦 [{BotName}](tg://user?id={BotId})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-        TEXT += f"» **✦ 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐃 𝐁𝐘 :~ [𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥](https://t.me/SHIVANSH39)**\n\n"
-        TEXT += f"» **𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 𝐒𝐏𝐀𝐌 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 :** `3.2`\n"
+        TEXT += f"» **✦ 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐃 𝐁𝐘 :~ [⎯꯭̽🇨🇦꯭꯭ ⃪В꯭α꯭∂ ꯭м꯭υ꯭η∂꯭α_꯭آآ⎯꯭ ꯭̽🌸](https://t.me/II_BAD_MUNDA_II)**\n\n"
+        TEXT += f"» **𝐁𝐀𝐃 𝐗 𝐒𝐏𝐀𝐌 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 :** `3.2`\n"
         TEXT += f"» **𝐓𝐄𝐋𝐄𝐓𝐇𝐎𝐍 𝐕𝐄𝐑𝐒𝐈𝐎𝐍:** `{telethon.__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
                 event.chat_id,
-                "https://telegra.ph/file/aa4bf1e57d11fb75b602e.jpg",
+                "https://te.legra.ph/file/e25a563619c653328830d.jpg",
                 caption=TEXT, 
                 buttons=PythonButton)
