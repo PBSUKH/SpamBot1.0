@@ -211,7 +211,7 @@ async def _(e):
                 queue.pop(0)
             except Exception:
                 pass
-            await e.reply("» ਮਰਲਈ ਇਸ ਦੀ ਭੈਣ ਦੀ ਸ਼ੋਲੀ !! 😂", parse_mode=None, link_preview=None )
+            await e.reply("» ਮਾਰਲਈ ਇਸ ਦੀ ਭੈਣ ਦੀ ਸ਼ੋਲੀ ਬੈਡ ਨੇ!! 😂", parse_mode=None, link_preview=None )
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
             b = await e.client.get_entity(a.sender_id)
@@ -221,7 +221,7 @@ async def _(e):
                 queue.pop(0)
             except Exception:
                 pass
-            await e.reply("» ਮਰਲਈ ਇਸ ਦੀ ਭੈਣ ਦੀ ਸ਼ੋਲੀ !! 😂", parse_mode=None, link_preview=None )
+            await e.reply("» ਮਾਰਲਈ ਇਸ ਦੀ ਭੈਣ ਦੀ ਸ਼ੋਲੀ ਬੈਡ ਨੇ!! 😂", parse_mode=None, link_preview=None )
         else:
             await e.reply(usage)
 
@@ -279,7 +279,7 @@ async def _(e):
                 gey = que.get(user_id)
                 phucker = [user_id]
                 gey.append(phucker)
-                await e.reply("» ʜᴇʜᴇ.. ᴀʙ ʀᴇᴘʟʏ ᴋʀɴᴇ ᴘʀ ɢᴀᴀʟɪʏᴀ ᴘᴀʀᴇɢɪ !! ✅", parse_mode=None, link_preview=None)
+                await e.reply("» ਹੁਣ ਇਸ ਦੀ ਭੈਣ ਦੀ ਲਨ ਦੇਣਾ ਬੈਡ ਨੇ😈", parse_mode=None, link_preview=None)
 
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
@@ -296,7 +296,7 @@ async def _(e):
                 gey = que.get(user_id)
                 phucker = [user_id]
                 gey.append(phucker)
-                await e.reply("» ᴜғғ.. ᴀʙ ʀᴇᴘʟʏ ᴋʀɴᴇ ᴘʀ ɢᴀᴀʟɪʏᴀ ɴʜɪ ᴘᴀʀᴇɢɪ !! ✅", parse_mode=None, link_preview=None )
+                await e.reply("» ਹੁਣ ਇਸ ਦੀ ਭੈਣ ਦੀ ਲਨ ਦੇਣਾ ਬੈਡ ਨੇ😈", parse_mode=None, link_preview=None )
         else:
             await e.reply(usage)
 
@@ -326,7 +326,7 @@ async def _(e):
                 queue.pop(0)
             except Exception:
                 pass
-            await e.reply("» ᴜғғ.. ᴀʙ ʀᴇᴘʟʏ ᴋʀɴᴇ ᴘʀ ɢᴀᴀʟɪʏᴀ ɴʜɪ ᴘᴀʀᴇɢɪ !! ✅", parse_mode=None, link_preview=None )
+            await e.reply("» ਮਾਰਲਈ ਇਸ ਦੀ ਭੈਣ ਦੀ ਸ਼ੋਲੀ ਬੈਡ ਨੇ!! ✅", parse_mode=None, link_preview=None )
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
             b = await e.client.get_entity(a.sender_id)
@@ -336,7 +336,7 @@ async def _(e):
                 queue.pop(0)
             except Exception:
                 pass
-            await e.reply("» ᴜғғ.. ᴀʙ ʀᴇᴘʟʏ ᴋʀɴᴇ ᴘʀ ɢᴀᴀʟɪʏᴀ ɴʜɪ ᴘᴀʀᴇɢɪ !! ✅", parse_mode=None, link_preview=None )
+            await e.reply("» ਮਾਰਲਈ ਇਸ ਦੀ ਭੈਣ ਦੀ ਸ਼ੋਲੀ ਬੈਡ ਨੇ !! ✅", parse_mode=None, link_preview=None )
         else:
             await e.reply(usage)
 
