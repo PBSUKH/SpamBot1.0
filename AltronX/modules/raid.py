@@ -16,7 +16,7 @@ que = {}
 @MK9.on(events.NewMessage(incoming=True, pattern=r"\%sbraid(?: |$)(.*)" % hl))
 @MK10.on(events.NewMessage(incoming=True, pattern=r"\%sbraid(?: |$)(.*)" % hl))
 async def spam(e):
-    usage = f"𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲: 𝗥𝗮𝗶𝗱\n  » {hl}raid <count> <Username of User>\n  » {hl}raid <count> <reply to a User>"
+    usage = f"𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲: 𝗥𝗮𝗶𝗱\n  » {hl}braid <count> <Username of User>\n  » {hl}braid <count> <reply to a User>"
     if e.sender_id in SUDO_USERS:
         mkraid = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
 
